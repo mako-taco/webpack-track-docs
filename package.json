@@ -1,0 +1,24 @@
+{
+  "name": "webpack-track-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mako-taco/webpack-track-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mako-taco/webpack-track-docs/issues"
+  },
+  "homepage": "https://github.com/mako-taco/webpack-track-docs#readme",
+  "dependencies": {
+    "acorn": "^2.4.0",
+    "invariant": "^2.1.1",
+    "loader-utils": "^0.2.11"
+  }
+}
