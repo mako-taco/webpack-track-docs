@@ -6,7 +6,9 @@ module.exports = function (source, map) {
             if (block) {
                 this._compilation._commentBlocks.push(text);
             }
-        }.bind(this)
+        }.bind(this),
+		ecmaVersion: 6,
+		sourceType: 'module'
     });
     this.cacheable();
     this.callback(null, source, map);
